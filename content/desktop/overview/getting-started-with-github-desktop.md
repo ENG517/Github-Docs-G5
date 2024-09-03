@@ -76,6 +76,21 @@ After installing, authenticating, and configuring the app, you are ready to star
 
 ### Creating, adding, and cloning repositories
 
+Before working on the company's main repository, it's recommended to create a personal practice repository to familiarize yourself with GitHub Desktop and the docs-as-code workflow.
+
+Open GitHub Desktop and sign in with your GitHub account.
+Click on "File" > "New Repository" in the top menu.
+Fill in the following details:
+
+Name: "github-desktop-practice"
+Description: "A repository for practicing GitHub Desktop workflow"
+Local path: Choose a location on your computer
+Initialize this repository with a README: Check this box
+
+Click "Create Repository"
+
+
+
 You can create a new repository by selecting **File** in the "{% data variables.product.prodname_desktop %}" menu bar and clicking **New repository...**. For more information, see "[AUTOTITLE](/desktop/overview/creating-your-first-repository-using-github-desktop)."
 
 You can add a repository from your local computer by selecting **File** and clicking **Add Local Repository...**. For more information, see "[AUTOTITLE](/desktop/adding-and-cloning-repositories/adding-a-repository-from-your-local-computer-to-github-desktop)."
@@ -97,6 +112,8 @@ You can clone a repository from {% data variables.product.prodname_dotcom %} by 
 ### Making changes in a branch
 
 You can use {% data variables.product.prodname_desktop %} to create a branch of a project. Branches isolate your development work from other branches in the repository, so that you can safely experiment with changes. For more information, see "[AUTOTITLE](/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop)."
+
+
 
 After you make changes to a branch, you can review them in {% data variables.product.prodname_desktop %} and make a commit to keep track of your changes. For more information, see "[AUTOTITLE](/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop)."
 
