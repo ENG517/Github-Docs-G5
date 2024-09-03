@@ -102,6 +102,7 @@ You can't delete a branch if it's currently associated with an open pull request
 
 {% endwindows %}
 
+**Tip**: If you decide to undo a branch, you can use _Command + M_ to revert a branch from the parent branch. This action does not erase the history of the merge being undone. It adds a new commit that counteracts the changes, preserving the git history.
 ## Further reading
 
 * "[AUTOTITLE](/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)"
